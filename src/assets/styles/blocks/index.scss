@@ -1,0 +1,62 @@
+.welcome-section {
+  background: linear-gradient(to bottom, rgba(0, 0 ,0 , 0.30) 35%, rgba(0, 0 ,0 , 0.0) 50%, rgba(0, 0 ,0 , 0.30) 65%),
+              url('assets/images/bg/water.jpg') no-repeat center top;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome-header {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.auth-button {
+  min-width: 180px;
+  min-height: 45px;
+  color: $white;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid $white;
+  border-radius: 25px;
+  transition: all 0.25s;
+  @include roboto('medium');
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    background-color: $dark-green;
+    border-color: #719c17;
+  }
+
+  &--hidden {
+    visibility: hidden;
+  }
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  position: relative;
+  width: 380px;
+  perspective: 1000px;
+}
+
+.copyright {
+  padding: 40px 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.copyright__text {
+  color: $white;
+  text-align: center;
+}

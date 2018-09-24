@@ -1,3 +1,12 @@
+$white: #efeee9;
+$beige: #eeebdf;
+$green: #16c2aa;
+$text-color: #566358;
+$grey: #373e42;
+$light-grey: #dfdcd5;
+$dim-green: #6c9c5a;
+$dark-green: #4e8839;
+
 body, html {
   height: 100%;
 }
@@ -45,4 +54,45 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin: 0;
   padding: 0;
+}
+
+.footer-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.section {
+  min-height: 650px;
+  height: 100vh;
+}
+
+input, textarea, button {
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+.title-block {
+  position: relative;
+}
+
+.title-icon {
+  fill: #e2ebd0;
+  position: absolute;
+  width: 600px;
+  height: 200px;
+  left: calc(50% - 275px);
+  top: -125%;
+}
+
+.title-icon--doubled {
+  top: -32%;
+}
+
+.title-icon--lighter {
+  fill: #e2ebd0;
+  transform: scale(0.75);
 }
