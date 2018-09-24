@@ -1,6 +1,7 @@
 # Учебный шаблон проекта Portfolio
 
-## Выпускной проект студента LoftSchool Утеева Максима Ивановича
+## Выпускной проект студента LoftSchool 
+###Утеева Максима Ивановича
 ```
 Начало обучения: с 17 сентября 2018 года
 Наставник курса: Лобастов Арсений
@@ -10,8 +11,8 @@
 
 ##  Чтобы развернуть проект необходимо:
 ```sh
-$ git clone git@github.com:loftschool/advanced-boilerplate.git
-$ cd advanced-boilerplate
+$ git clone git@github.com:Maksim-Uteev/Site_Portfolio.git
+$ cd Site_Portfolio
 $ npm install
 ```
 
